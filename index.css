@@ -1,15 +1,45 @@
 body {
-	background: #111;
-	color: #eee;
+	background: #3C6255;
+	color: #EAE7B1;
 	font-family: 'Share Tech Mono', monospace;
 
 }
 
 .big {
-	font-size: 60px;
+	font-size: 5vw;
+}
+
+.col-6 {
+	padding: 30px;
 }
 
 .col-12 {
-	padding: 30px;
-	border-radius: 15px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.highlight {
+	background-color: #61876E;
+	border-radius: 20px;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+.highlight-sm {
+	font-weight: bold;
+}
+
+.bg-low {
+	background-color: #61876E;
+}
+
+.bg-mid {
+	background-color: #A6BB8D;
+	color: black;
+}
+
+.btn-greeen {
+	background-color: #EAE7B1;
+	font-weight: bold;
+	color: black;
 }

@@ -14,13 +14,13 @@ body {
 }
 
 .col-12 {
-	border-radius: 20px;
+	border-radius: 15px;
 	overflow: hidden;
 }
 
 .highlight {
 	background-color: #61876E;
-	border-radius: 20px;
+	border-radius: 15px;
 	padding: 5px;
 	white-space: nowrap;
 }
@@ -30,11 +30,13 @@ body {
 }
 
 .bg-low {
-	background-color: #61876E;
+	background-color: #A6BB8D;
+	color: black;
 }
 
 .bg-mid {
-	background-color: #A6BB8D;
+	/*background-color: #A6BB8D;*/
+	background-color: #f1f3f4;
 	color: black;
 }
 
@@ -42,4 +44,19 @@ body {
 	background-color: #EAE7B1;
 	font-weight: bold;
 	color: black;
+}
+
+
+
+.bg-mid > audio::-webkit-media-controls-panel {
+  background-color: #f1f3f4;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #A6BB8D;
+}
+
+audio {
+    outline: none;
+    border: none;
 }

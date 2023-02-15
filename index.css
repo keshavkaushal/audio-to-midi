@@ -13,7 +13,7 @@ body {
 	padding: 30px;
 }
 
-.col-12 {
+.col-md-8 {
 	border-radius: 15px;
 	overflow: hidden;
 }
@@ -46,12 +46,14 @@ body {
 	color: black;
 }
 
-
-
-.bg-mid > audio::-webkit-media-controls-panel {
-  background-color: #f1f3f4;
+.greeen {
+	color: #EAE7B1;
 }
 
+/*.bg-mid > audio::-webkit-media-controls-panel {
+  background-color: #f1f3f4;
+}*/
+/*
 audio::-webkit-media-controls-panel {
   background-color: #A6BB8D;
 }
@@ -59,4 +61,4 @@ audio::-webkit-media-controls-panel {
 audio {
     outline: none;
     border: none;
-}
+}*/

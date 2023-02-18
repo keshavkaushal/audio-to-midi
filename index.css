@@ -2,11 +2,11 @@ body {
 	background: #3C6255;
 	color: #EAE7B1;
 	font-family: 'Share Tech Mono', monospace;
-
+	font-size: 112%;
 }
 
 .big {
-	font-size: 4vw;
+	font-size: 250%;
 }
 
 .col-6 {

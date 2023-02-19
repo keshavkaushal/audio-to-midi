@@ -6,7 +6,11 @@ body {
 }
 
 .big {
-	font-size: 250%;
+	font-size: 270%;
+}
+
+.s {
+	font-size: 90%;
 }
 
 .col-6 {
@@ -44,6 +48,10 @@ body {
 	background-color: #EAE7B1;
 	font-weight: bold;
 	color: black;
+}
+
+.btn-greeen:hover {
+	opacity: 0.8;
 }
 
 .greeen {

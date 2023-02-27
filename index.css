@@ -1,25 +1,24 @@
 body {
+	color: #3C6255;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 100%;
+}
+
+.rubik {
+	font-family: 'Rubik', sans-serif;
+}
+
+.bg-darkgreen {
 	background: #3C6255;
 	color: #EAE7B1;
-	font-family: 'Share Tech Mono', monospace;
-	font-size: 112%;
 }
 
 .big {
-	font-size: 270%;
+	font-size: 300%;
 }
 
-.s {
-	font-size: 90%;
-}
-
-.col-6 {
-	padding: 30px;
-}
-
-.col-lg-8 {
-	border-radius: 15px;
-	overflow: hidden;
+.small {
+	font-size: 95%;
 }
 
 .highlight {
@@ -44,29 +43,20 @@ body {
 	color: black;
 }
 
-.btn-greeen {
+.btn-yelow {
 	background-color: #EAE7B1;
 	font-weight: bold;
 	color: black;
 }
 
-.btn-greeen:hover {
+.btn-yelow:hover {
 	opacity: 0.8;
 }
 
-.greeen {
+.faded {
+	opacity: 0.6
+}
+
+.link-light {
 	color: #EAE7B1;
 }
-
-/*.bg-mid > audio::-webkit-media-controls-panel {
-  background-color: #f1f3f4;
-}*/
-/*
-audio::-webkit-media-controls-panel {
-  background-color: #A6BB8D;
-}
-
-audio {
-    outline: none;
-    border: none;
-}*/

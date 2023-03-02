@@ -60,3 +60,11 @@ body {
 .link-light {
 	color: #EAE7B1;
 }
+
+.atm {
+	font-weight: bold;
+	color: #f2c724;
+	background-color: #444037;
+	padding: 3px;
+	border-radius: 3px;
+}
